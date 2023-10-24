@@ -12,8 +12,8 @@ class Music extends Media {
   }
 
   static shortestAlbum(album) {
-    const sorted = album.sort((a, b) => a.length - b.length);
-    return sorted[album.length - 1].title;
+    const sorted = album.sort((a, b) => b.length - a.length);
+    return sorted[album.length - 1];
   }
 }
 // don't change below
