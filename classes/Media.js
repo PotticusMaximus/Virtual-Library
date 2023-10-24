@@ -5,6 +5,7 @@ class Media {
     this.title = title;
     this.genre = genre;
     this.year = year;
+    Media.totalMediaCount++;
   }
   summary() {
     return `Title: ${this.title}, Year: ${this.year}, Genre: ${this.genre} `;
