@@ -1,8 +1,8 @@
 // import the Media class:
-const Media = require("/Users/mpi976/Documents/Multiverse/Virtual-Library/main");
+const Media = require("./Media");
 // create your Music class:
 class Music extends Media {
-  constructor(title, genre, year, artist, length) {
+  constructor(title, year, genre, artist, length) {
     super(title, genre, year);
     this.artist = artist;
     this.length = length;

@@ -1,8 +1,8 @@
 // import the Media class:
-const Media = require("/Users/mpi976/Documents/Multiverse/Virtual-Library/main");
+const Media = require("./Media");
 // create your Movie class:
 class Movie extends Media {
-  constructor(title, genre, year, director, duration) {
+  constructor(title, year, genre, director, duration) {
     super(title, genre, year);
     this.director = director;
     this.duration = duration;

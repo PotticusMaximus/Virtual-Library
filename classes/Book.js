@@ -1,8 +1,8 @@
 // import the Media class:
-const Media = require("/Users/mpi976/Documents/Multiverse/Virtual-Library/main");
+const Media = require("./Media");
 // create your Book class:
 class Book extends Media {
-  constructor(title, genre, year, author, numPages, rating) {
+  constructor(title, year, genre, author, numPages, rating) {
     super(title, genre, year);
     this.author = author;
     this.numPages = numPages;
