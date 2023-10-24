@@ -8,7 +8,7 @@ class Media {
     Media.totalMediaCount++;
   }
   summary() {
-    return `Title: ${this.title}, Year: ${this.year}, Genre: ${this.genre} `;
+    return `Title: ${this.title}, Year: ${this.year}, Genre: ${this.genre}`;
   }
 }
 // uncomment below to export it:
